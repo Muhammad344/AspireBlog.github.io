@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Utilities.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Blogs</title>
+    <style>
+        .Blog-section {
+            padding: 50px;
+        }
+        
+        .blog-icons {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 30px;
+            margin-top: 20px;
+        }
+        
+        .blog-icons i {
+            font-size: 2rem;
+            margin: 8px;
+            cursor: pointer;
+        }
+        
+        .blog-icons i:hover {
+            transform: translateY(-5px);
+            color: rgb(228, 5, 5);
+        }
+        
+        .home-section {
+            background-color: rgba(0, 0, 0, 0.01);
+            padding: 10px;
+        }
+        
+        .home-article a {
+            font-size: 1.5rem;
+        }
+        
+        .hr {
+            padding-bottom: 15px;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .more-post {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .footer {
+            margin-top: 15px;
+        }
+        
+        @media screen and (max-width: 450px) {
+            .Blog-section {
+                padding: 50px 25px;
+            }
+            .h1 {
+                text-align: inherit;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation m-auto">
+        <div class="nav-left">
+            <span>Aspire</span>
+            <ul>
+                <li><a href="Blog Website.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <input class="form-input" type="text" placeholder="Search Articles here">
+            <button class="btn">Search</button>
+        </div>
+
+    </nav>
+    <div class="blog-icons">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-facebook-square"></i>
+    </div>
+    <div class="Blog-section max-width-1 m-auto">
+        <div class="blog">
+            <h1 class="h1 heading1 text-center">5 Habits to lose Weight</h1>
+            <p class="paras">You know the ones I’m talking about — they’re probably invading your newsfeed and TV screen right about now, each one touting a different diet or workout routine that promises life-changing results that’ll get you “the body you’ve always dreamed
+                of for your “best year yet.”<br><br> Don’t get me wrong; I’ve tried them all — sans eating all my meals in the nude while looking my reflection in the eye. In college, it was Weight Watchers, which I chased with some weird diet powder
+                that was supposed to curb my appetite. Post-college was the Metabolism Reset Diet, which eliminated all carbs for three months, then tabled off as a “low-carb lifestyle” diet. There was the 500-calorie diet I did a week before my cousin’s
+                wedding, which left me on the brink of passing out during a yoga class.<br><br> To be fair, I saw some success with each of these methods and was even able to keep the weight off for a few months at a time here and there. But then something
+                would derail me. The warm weather would set in, and my calendar would suddenly be packed with outdoor happy hours, and my low-carb diet and plans with the gym would get drowned out by margaritas. How I Did It Having tried pretty much every
+                other diet out there, I decided to do the Whole30 with a friend. If you’re not familiar with the premise, you spend 30 days eating extremely clean while also eliminating food groups that tend to cause digestive issues, such as dairy, legumes,
+                and grains.<br><br> That leaves you with fruits, vegetables, meat, and fish. I’m not going to lie to you. It was hard. This diet tested every ounce of my willpower, and it is not made for the Regina Georges out there who want to lose three
+                pounds. This is the diet you do when you’re so desperate to feel better that you’ll sit through a company dinner and savor your salad leaves instead of ordering the most decadent meal on the menu or forego drinking on your birthday. Whether
+                you’re at that level, somewhere in between, or just trying to lose those last five pounds, there are a few things I’ve learned from actually keeping this weight off that I believe will help anyone be successful — regardless of your weight
+                loss goal.
+            </p>
+        </div>
+
+    </div>
+    <div class="hr max-width-1 m-auto">
+        <hr>
+    </div>
+    <!-- Articles Section start here -->
+    <div class="home-section max-width-1 m-auto">
+        <h2 class="heading2">People who read this also read</h2>
+        <div class="row">
+            <div class="home-article more-post">
+                <div class="home-article-image">
+                    <img src="News.jpg" alt="image">
+                </div>
+                <div class="home-article-content paras">
+                    <a href="Blogpost.html">Is Orange bad for health?</a><br>
+                    <span>Author name: <b>Christopher Tony</b></span><br>
+                    <span>7th January 2021 | 6 min read</span>
+                </div>
+            </div>
+            <div class="home-article more-post">
+                <div class="home-article-image">
+                    <img src="News.jpg" alt="image">
+                </div>
+                <div class="home-article-content paras">
+                    <a href="Blogpost.html">How to become a Successful person?</a><br>
+                    <span>Author name: <b>Albert robert</b></span><br>
+                    <span>7th January 2021 | 6 min read</span>
+                </div>
+
+            </div>
+            <div class="home-article more-post">
+                <div class="home-article-image">
+                    <img src="News.jpg" alt="image">
+                </div>
+                <div class="home-article-content paras">
+                    <a href="Blogpost.html">Pakistan win in World Food Challenge</a><br>
+                    <span>Author name: <b>Albert robert</b></span><br>
+                    <span>7th January 2021 | 6 min read</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="paras">Copyright &copy; Aspire.com</p>
+        <p class="paras">Vector Credits Vecteezy</p>
+
+    </footer>
+</body>
+
+</html>

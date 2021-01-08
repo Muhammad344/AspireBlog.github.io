@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+:root {
+    --main-bg-color: rgb(94, 39, 39);
+    --font1: 'Roboto', sans-serif;
+    --font3: 'Bree Serif', serif;
+}
+
+
+/* Widths classes */
+
+.max-width-1 {
+    max-width: 85vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+
+/* button classes */
+
+.btn {
+    outline: none;
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+
+/* form classes */
+
+.form-input {
+    outline: none;
+    padding: 9px 8px;
+    margin: 0 13px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--font1);
+}
+
+
+/* Text classes */
+
+.heading1 {
+    font-size: 2.8rem;
+    font-family: var(--font1);
+}
+
+.heading2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: var(--font3);
+}
+
+.paras {
+    font-size: 1.29rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Media Queries for text classes */
+
+@media screen and (max-width: 600px) {
+    .heading1 {
+        font-size: 2.5rem;
+        font-family: var(--font1);
+    }
+    .heading2 {
+        font-size: 2.1rem;
+        font-weight: 400;
+        font-family: var(--font3);
+    }
+    .paras {
+        font-size: 1.24rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
